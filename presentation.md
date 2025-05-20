@@ -10,7 +10,11 @@ Etienne Jacquot etiennej@upenn.edu<br/>
 (ASC IT)
 ---
 
-## 
+## ChatGPT
+
+### Communication - Chat = Conversation?
+
+### IT - GPT 
 
 
 ---
