@@ -12,9 +12,15 @@ Etienne Jacquot etiennej@upenn.edu<br/>
 
 ## ChatGPT
 
-### Communication - Chat = Conversation?
+### Communication
 
-### IT - GPT 
+* **Chat** = Conversation?
+
+### IT
+
+* **GPT** = Monolithic blackbox model?
+
+
 
 
 ---
