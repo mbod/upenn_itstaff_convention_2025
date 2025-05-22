@@ -247,7 +247,6 @@ Etienne Jacquot<br/>
 
 ---
 
-
 ### LLM Chat is not really *conversation*
 
 * Previous requests and responses become CONTEXT HISTORY
@@ -256,11 +255,136 @@ Etienne Jacquot<br/>
 	<img src="img/LLM2.png" class="center-img"/>
 </div>
 
+---
+
+### Managing conversation history 
+
+
+<div>
+	<img src="img/chat_json1.png" class="center-img"/>
+</div>
+
+
 
 ---
 
 
+### Managing conversation history 
+
+
+<div>
+	<img src="img/chat_json2.png" class="center-img"/>
+</div>
+
+
+
+---
+
+
+### Managing conversation history 
+
+
+<div>
+	<img src="img/chat_json3.png" class="center-img"/>
+</div>
+
+
+
+---
+
+
+
+### Managing conversation history 
+
+
+<div>
+	<img src="img/chat_json4.png" class="center-img"/>
+</div>
+
+
+
+---
+
+
+### Managing conversation history 
+
+
+<div>
+	<img src="img/chat_json.png" class="center-img"/>
+</div>
+
+
+
+---
+
+### Conversation in collaborative team tasks
+
+- Conversation is a primary cultural/social tool for collaboration
+
+- Think of any joint project you are involved in and the role that conversations have!
+
+---
+
+### Example: Developing a messaging campaign
+
+<div>
+	<img src="img/bikecampaign1.png" class="center-img"/>
+</div>
+
+
+---
+
+### Example: Developing a messaging campaign
+
+<div>
+	<img src="img/bikecampaign2.png" class="center-img"/>
+</div>
+
+
+---
+### Example: Developing a messaging campaign
+
+<div>
+	<img src="img/bikecampaign3.png" class="center-img"/>
+</div>
+
+
+---
+
+### Example: Developing a messaging campaign
+
+<div>
+	<img src="img/bikecampaign4.png" class="center-img"/>
+</div>
+
+
+---
+
+### Example: Developing a messaging campaign
+
+<div>
+	<img src="img/bikecampaign5.png" class="center-img"/>
+</div>
+
+
+---
+
+
+
+
+### LLMs used for team tasks
+
+<div>
+	<img src="img/llm_arch1.png" />
+</div>
+
+---
+
 ### Multiple users of a single LLM?
+
+<div>
+	<img src="img/llm_arch2.png" class="center-img"/>
+</div>
 
 
 
@@ -298,7 +422,6 @@ Etienne Jacquot<br/>
 
 
 
-
 ## Closing Perspective
 - At ASC, we don’t see generative AI as just another tech trend—we see it as a communication phenomenon.
   <br/><br/>
@@ -314,9 +437,10 @@ Etienne Jacquot<br/>
 
 ## Thank you!
 
-Matt O'Donnell mbod@asc.upenn.edu<br/>
-Tom Boccuto thomas.boccuto@asc.upenn.edu<br/>
-Richard Cardona richard.cardona@asc.upenn.edu<br/>
-Etienne Jacquot etiennej@upenn.edu<br/>
+
+<div><img class="profile-img" src="img/mbod.jpg"/>Matt O'Donnell <a href="mbod@asc.upenn.edu">mbod@asc.upenn.edu</a></div>
+<div><img class="profile-img" src="img/tom.jpg"/>Tom Boccuto <a href="thomas.boccuto@asc.upenn.edu">thomas.boccuto@asc.upenn.edu</a></div>
+<div><img class="profile-img" src="img/rich.png"/>Richard Cardona <a href="richard.cardona@asc.upenn.edu">richard.cardona@asc.upenn.edu</a></div>
+<div><img class="profile-img" src="img/etienne.png"/>Etienne <a href="Jacquot etiennej@upenn.edu">Jacquot etiennej@upenn.edu</a></div>
 
 ---

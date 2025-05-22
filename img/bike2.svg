@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- Street -->
+  <rect x="100" y="250" width="600" height="150" fill="#333333"/>
+  
+  <!-- Road markings -->
+  <line x1="150" y1="325" x2="250" y2="325" stroke="#ffffff" stroke-width="6" stroke-dasharray="20,15"/>
+  <line x1="300" y1="325" x2="400" y2="325" stroke="#ffffff" stroke-width="6" stroke-dasharray="20,15"/>
+  <line x1="450" y1="325" x2="550" y2="325" stroke="#ffffff" stroke-width="6" stroke-dasharray="20,15"/>
+  <line x1="600" y1="325" x2="700" y2="325" stroke="#ffffff" stroke-width="6" stroke-dasharray="20,15"/>
+  
+  <!-- One-way sign -->
+  <circle cx="180" cy="190" r="40" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+  <path d="M180 170 L200 190 L180 210 L160 190 Z" fill="#000000"/>
+  
+  <!-- Street label -->
+  <text x="400" y="360" font-family="Arial" font-size="20" fill="white" text-anchor="middle">ONE WAY</text>
+  <path d="M445 360 L480 360" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <path d="M475 355 L485 360 L475 365" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Bike lane -->
+  <rect x="100" y="250" width="600" height="35" fill="#4CAF50" fill-opacity="0.7"/>
+  <path d="M130 265 L160 265" stroke="white" stroke-width="2"/>
+  <path d="M170 265 L200 265" stroke="white" stroke-width="2"/>
+  <path d="M210 265 L240 265" stroke="white" stroke-width="2"/>
+  <path d="M250 265 L280 265" stroke="white" stroke-width="2"/>
+  <path d="M290 265 L320 265" stroke="white" stroke-width="2"/>
+  <path d="M330 265 L360 265" stroke="white" stroke-width="2"/>
+  <path d="M370 265 L400 265" stroke="white" stroke-width="2"/>
+  <path d="M410 265 L440 265" stroke="white" stroke-width="2"/>
+  <path d="M450 265 L480 265" stroke="white" stroke-width="2"/>
+  <path d="M490 265 L520 265" stroke="white" stroke-width="2"/>
+  <path d="M530 265 L560 265" stroke="white" stroke-width="2"/>
+  <path d="M570 265 L600 265" stroke="white" stroke-width="2"/>
+  <path d="M610 265 L640 265" stroke="white" stroke-width="2"/>
+  <path d="M650 265 L680 265" stroke="white" stroke-width="2"/>
+  
+  <!-- Bike symbol -->
+  <circle cx="140" cy="273" r="5" fill="white"/>
+  <circle cx="165" cy="273" r="5" fill="white"/>
+  <path d="M140 273 L150 260 L165 273 L155 260 L156 250" stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- Safe cyclist -->
+  <g transform="translate(250, 273) scale(0.8)">
+    <!-- Bike -->
+    <circle cx="20" cy="30" r="10" fill="none" stroke="#FFD700" stroke-width="2"/>
+    <circle cx="60" cy="30" r="10" fill="none" stroke="#FFD700" stroke-width="2"/>
+    <path d="M20 30 L40 10 L60 30 L40 30 L20 30" stroke="#FFD700" stroke-width="2" fill="none"/>
+    <path d="M40 10 L45 0" stroke="#FFD700" stroke-width="2"/>
+    
+    <!-- Rider -->
+    <circle cx="45" cy="-5" r="5" fill="#FFD700"/>
+    <path d="M45 0 L50 10" stroke="#FFD700" stroke-width="2"/>
+    <path d="M50 10 L60 15" stroke="#FFD700" stroke-width="2"/>
+    <path d="M50 10 L45 25" stroke="#FFD700" stroke-width="2"/>
+    
+    <!-- Safety elements -->
+    <circle cx="45" cy="-5" r="7" fill="none" stroke="#FFD700" stroke-width="1" stroke-dasharray="2,1"/>
+    <rect x="56" y="-2" width="4" height="3" fill="#FFD700"/>
+  </g>
+  
+  <!-- Unsafe cyclist (riding wrong way) -->
+  <g transform="translate(550, 273) scale(0.8)">
+    <!-- Bike -->
+    <circle cx="20" cy="30" r="10" fill="none" stroke="#FF4136" stroke-width="2"/>
+    <circle cx="60" cy="30" r="10" fill="none" stroke="#FF4136" stroke-width="2"/>
+    <path d="M20 30 L40 10 L60 30 L40 30 L20 30" stroke="#FF4136" stroke-width="2" fill="none"/>
+    <path d="M40 10 L45 0" stroke="#FF4136" stroke-width="2"/>
+    
+    <!-- Rider -->
+    <circle cx="45" cy="-5" r="5" fill="#FF4136"/>
+    <path d="M45 0 L50 10" stroke="#FF4136" stroke-width="2"/>
+    <path d="M50 10 L60 15" stroke="#FF4136" stroke-width="2"/>
+    <path d="M50 10 L45 25" stroke="#FF4136" stroke-width="2"/>
+  </g>
+  
+  <!-- Warning symbols -->
+  <circle cx="550" cy="235" r="20" fill="#FF4136"/>
+  <text x="550" y="242" font-family="Arial" font-size="25" font-weight="bold" fill="white" text-anchor="middle">!</text>
+  
+  <!-- Car (going the right way) -->
+  <rect x="380" y="300" width="60" height="30" rx="5" fill="#3D9AD1"/>
+  <rect x="385" y="290" width="50" height="15" rx="3" fill="#3D9AD1"/>
+  <circle cx="390" cy="330" r="5" fill="#333"/>
+  <circle cx="430" cy="330" r="5" fill="#333"/>
+  
+  <!-- Red X over wrong-way cyclist -->
+  <line x1="520" y1="240" x2="580" y2="300" stroke="#FF4136" stroke-width="8"/>
+  <line x1="580" y1="240" x2="520" y2="300" stroke="#FF4136" stroke-width="8"/>
+  
+  <!-- Title -->
+  <text x="400" y="100" font-family="Arial" font-size="36" font-weight="bold" fill="#333333" text-anchor="middle">BIKE SAFETY MATTERS</text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="140" font-family="Arial" font-size="24" fill="#333333" text-anchor="middle">Always Ride WITH Traffic on One-Way Streets</text>
+  
+  <!-- Bottom message -->
+  <text x="400" y="450" font-family="Arial" font-size="28" font-weight="bold" fill="#FF4136" text-anchor="middle">WRONG-WAY RIDING INCREASES</text>
+  <text x="400" y="485" font-family="Arial" font-size="28" font-weight="bold" fill="#FF4136" text-anchor="middle">CRASH RISK BY 380%</text>
+  
+  <!-- Safety tips -->
+  <text x="400" y="530" font-family="Arial" font-size="18" fill="#333333" text-anchor="middle">Follow traffic direction • Use bike lanes • Stay visible • Be predictable</text>
+  
+  <!-- Campaign logo -->
+  <circle cx="700" cy="100" r="40" fill="#4CAF50"/>
+  <path d="M680 100 L720 100 M700 80 L700 120" stroke="white" stroke-width="6"/>
+  <circle cx="700" cy="100" r="15" fill="white"/>
+</svg>
