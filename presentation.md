@@ -25,7 +25,7 @@ Etienne Jacquot<br/>
   <br/><br/>
 * Our research spans media, public health messaging, political communication, digital technologies, and more.
 
-<br/><br/>
+<br/>
 
 #### Why GenAI? Because LLMs are communicators.
 * We study communication—so we’re naturally interested in a tool that generates language, narratives, and influence.
@@ -75,7 +75,7 @@ Etienne Jacquot<br/>
   <br/><br/>
 - They can *frame*, *reframe*, *persuade*, *obfuscate*, and *manipulate*.
 
-<br/><br/>
+<br/>
 
 #### Key Questions We Ask:
 - What makes an LLM-generated message persuasive?
@@ -108,8 +108,9 @@ Etienne Jacquot<br/>
 #### 1. Communication Perspective
 
 * **Chat** = Conversation?
-  1. LLM 'chat' very unlike human conversation
-  2.  Better understood as individual *request-response* cycles
+  1. LLM *'chat'* very unlike human conversation
+  2. Better understood as individual *request-response* cycles
+  3. How can we build systems with LLMs that better engage in human conversation?
 
 <br/>
 
@@ -136,15 +137,15 @@ Etienne Jacquot<br/>
 	<div class="col"> <!-- .element: class="fragment" -->
 		<pre style="color: #FADA5E">
 	    Matt:    Hey Rich!
-		Rich:    Hey! How are you?
-		Matt:              [Good] thanks! 
-		Matt:    You..?
-		Rich:      [Doi]ng ok.
+		Rich:    Hey! How are[you?]
+		Matt:                [Good] thanks! 
+		Matt:    Yo[u.?]
+		Rich:      [Doi]ng[ ok...]
 		Matt:             [You go]t time to run today?
-		Rich:    Yes!  Definitely! 
-		Matt:        [Excellent!]  What time works for you?
-		Rich:    Umm pretty much anytime
-		Matt:          [I have meetings after] 4pm but anytime before
+		Rich:    Yes!D[efinitely!] 
+		Matt:         [Excellent!]  What time works for you?
+		Rich:    Umm pretty[ much anytime  ]
+		Matt:              [I have meetings] after 4pm but anytime before
 		Rich:    How about 1pm?
 		Matt:    Sounds great!
 		</pre>
@@ -167,6 +168,23 @@ Etienne Jacquot<br/>
    </div>
 </div>
 
+---
+
+### Example conversation between two humans
+
+* UML Sequence Diagram representation (`mermaid.js`)
+
+<div class="container">
+	<div class="col"> <!-- .element: class="fragment" -->
+		<img src="img/SD_conv1.png" />
+	</div>
+	<div class="col"><!-- .element: class="fragment" -->
+		<img src="img/SD_conv2.png" /> 
+	</div>
+	<div class="col"><!-- .element: class="fragment" -->
+		<img src="img/SD_conv3.png" />
+	</div>
+</div>
 
 ---
 
@@ -220,11 +238,27 @@ Etienne Jacquot<br/>
 
 ### LLM Chat is not really *conversation*
 
+* Cycles of `REQUEST - RESPONSE`
 
-* cycles of request - response 
+<div>
+	<img src="img/LLM1.png" class="center-img"/>
+</div>
 
 
 ---
+
+
+### LLM Chat is not really *conversation*
+
+* Previous requests and responses become CONTEXT HISTORY
+
+<div>
+	<img src="img/LLM2.png" class="center-img"/>
+</div>
+
+
+---
+
 
 ### Multiple users of a single LLM?
 
