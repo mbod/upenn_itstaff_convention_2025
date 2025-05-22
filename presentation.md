@@ -75,7 +75,7 @@ Etienne Jacquot<br/>
 </div>
 
 
--
+---
  
 ### Our Distinctive Lens as a Communications School
  
