@@ -363,11 +363,21 @@ Etienne Jacquot<br/>
 ### Example: Developing a messaging campaign
 
 <div>
-	<img src="img/bikecampaign5.png" class="center-img"/>
+	<img src="img/bikecampaign.png" class="center-img"/>
 </div>
 
 
 ---
+
+### Example: Developing a messaging campaign
+
+<div>
+	<img src="img/bike2.svg" class="center-img"/>
+</div>
+
+
+---
+
 
 
 
@@ -412,6 +422,9 @@ Etienne Jacquot<br/>
 ## Demo: *ourspace*
 
 * https://ourspace.asc.upenn.edu/
+  - To send request to LLM:
+	1. Text prompt: `@ai [YOUR PROMPT]`
+    2. Image generation: `@ai /draw [YOUR PROMPT]`
 
 <img src="img/demo3.png" class="center-img"/>
 
