@@ -64,9 +64,19 @@ Etienne Jacquot<br/>
   <br/><br/>
 - We offer workshops and consultations to emphasize ethical, critical use.
 
-
 ---
 
+### Come to this talk this afternoon!
+
+##### Session 4 (3:00 - 3:50)
+
+<div>
+	<img src="img/etienne_talk.png" class="center-img"/>
+</div>
+
+
+-
+ 
 ### Our Distinctive Lens as a Communications School
  
 
